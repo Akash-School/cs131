@@ -1,0 +1,202 @@
+    1  wget www.github.com
+    2  pwd
+    3  echo $SHELL
+    4  spotify % ls
+    5  %ls
+    6  ls
+    7  head -f spotify-2023.csv
+    8  head-f spotify-2023.csv
+    9  man tail
+   10  tail spotify-2023.csv
+   11  head -10 spotify-2023.csv 
+   12  tail -f spotify-2023.csv 
+   13  man more
+   14  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/spotify-2023.csv
+   15  ls
+   16  pico
+   17  nano spotify-2023.csv 
+   18  head spotify-2023.csv 
+   19  pico spotify-2023.csv 
+   20  nano spotify-2023.csv 
+   21  vi spotify-2023.csv 
+   22  vi a.txt
+   23  vi spotify-2023.csv 
+   24  pwd
+   25  ls
+   26  vi unsorted.txt
+   27  cat unsorted.txt
+   28  sort unsorted.txt
+   29  sort unsorted.txt > sorted.txt
+   30  cat sorted.txt
+   31  echo "Hello"
+   32  echo "Hello" > echofile.txt
+   33  cat echofile.txt
+   34  man wc
+   35  wc sorted.txt
+   36  man wc
+   37  ls
+   38  grep spotify-2023.csv 
+   39  grep 'Gunna' spotify-2023.csv 
+   40  grep 'Taylor' spotify-2023.csv 
+   41  grep 'Carti' spotify-2023.csv 
+   42  grep 'Ken Carson' spotify-2023.csv 
+   43  grep 'LUCKI' spotify-2023.csv 
+   44  grep 'Uzi' spotify-2023.csv 
+   45  grep 'Gunna' spotify-2023.csv > linesWithGunna.txt
+   46  cat linesWithGunna
+   47  cat linesWithGunna.txt
+   48  wc -l linesWithGunna.txt
+   49  clear
+   50  echo `pwd`
+   51  grep -i gunna spotify-2023.csv 
+   52  echo $HOME
+   53  echo $SHELL
+   54  a=1234
+   55  echo $a
+   56  a=1234+1
+   57  echo $a
+   58  a=$(1234+1)
+   59  a=$(a+1)
+   60  echo `pwd`
+   61  echo $a
+   62  $a=1234
+   63  a=1234
+   64  (a+1)
+   65  b=$a567
+   66  echo $b
+   67  clera
+   68  clear
+   69  b={$a}567
+   70  echo $b
+   71  {echo "CS131";}
+   72  wget www.github.com
+   73  git init
+   74  touch newfile.txt
+   75  ls
+   76  git status
+   77  git add newfile.txt
+   78  git status
+   79  git commit -m "Practice commit from terminal"
+   80  git config --global user.name Akash-School
+   81  git commit -m "Practice commit from terminal"
+   82  git branch
+   83  git status
+   84  git log
+   85  echo "# cs131" >> README.md
+   86  git init
+   87  git add README.md
+   88  git commit -m "first commit"
+   89  git branch -M main
+   90  git remote add origin https://github.com/Akash-School/cs131.git
+   91  git push -u origin main
+   92  echo "# cs131" >> README.md
+   93  git init
+   94  git add README.md
+   95  git commit -m "first commit"
+   96  git branch -M main
+   97  git remote add origin https://github.com/Akash-School/cs131.git
+   98  git push -u origin main
+   99  git remote add origin https://github.com/Akash-School/cs131.git
+  100  git branch -M main
+  101  git push -u origin main
+  102  clear
+  103  wget www.github.com
+  104  git remote add origin https://github.com/Akash-School/cs131.git
+  105  git push -u origin master
+  106  git status
+  107  touch newfile.txt
+  108  git status
+  109  git add newfile.txt
+  110  git status
+  111  git add newfile.txt
+  112  touch newfile.txt
+  113  git status
+  114  wget www.github.com
+  115  git init 
+  116  touch ahebbar.txt
+  117  ls
+  118  git status
+  119  git add ahebbar.txt
+  120  git commit -m "practice commit"
+  121  git checkout -b <new-branch>
+  122  git checkout -b new-branch
+  123  git branch
+  124  git remote add origin https://github.com/Akash-School/cs131.git
+  125  git push -u origin master
+  126  git push origin new-branch
+  127  git remote add origin https://github.com/Akash-School/cs131.git
+  128  git branch -M main
+  129  git push -u origin main
+  130  git log
+  131  git new directory 
+  132  git --help
+  133  git checkout -b new-branch
+  134  git push new-branch
+  135  git push origin new-branch
+  136  git pull
+  137  git pull origin master
+  138  git checkout master
+  139  git checkout
+  140  git checkout -b master
+  141  git branch
+  142  git push master
+  143  git push origin master
+  144  git checkout main
+  145  git pull origin master
+  146  cat ahebbar.txt
+  147  git log 
+  148  git log
+  149  checkout new-branch
+  150  git checkout new-branch
+  151  git checkout main
+  152  git pull origin master
+  153  git pull origin main
+  154  git log
+  155  git log > cmds.log
+  156  vi cmds.log
+  157  wget www.github.com
+  158  git.log
+  159  history
+  160  history > cmds.log
+  161  vi cmds.log
+  162  git push origin cmds.log
+  163  cd worksheet1
+  164  mkdir worksheet1
+  165  cd worksheet1
+  166  git init
+  167  touch ahebbar.txt
+  168  ls
+  169  git status
+  170  git add ahebbar.txt
+  171  git status
+  172  git commit -m "First commit"
+  173  git checkout -b new-branch
+  174  git remote add origin https://github.com/Akash-School/cs131.git
+  175  git branch -M main
+  176  git push -u origin main
+  177  git remote add origin https://github.com/Akash-School/cs131.git
+  178  git branch -M main
+  179  git push -u origin main
+  180  git remote add origin git@github.com:Akash-School/cs131.git
+  181  git branch -M main
+  182  git push -u origin main
+  183  git remote add origin https://github.com/Akash-School/cs131.git
+  184  git branch -M main
+  185  git push -u origin main
+  186  git remote add origin https://github.com/Akash-School/cs131.git
+  187  git branch -M main
+  188  git push -u origin main
+  189  git remote add origin https://github.com/Akash-School/cs131.git
+  190  git branch -M main
+  191  git push -u origin main
+  192  git push origin new-branch
+  193  git branch
+  194  git checkout -b new-branch
+  195  git push origin new-branch
+  196  git pull origin master
+  197  git pull origin main
+  198  git log
+  199  vi ahebbar.txt
+  200  history
+  201  :wq
+  202  history > cmds.log
