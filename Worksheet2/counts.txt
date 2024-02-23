@@ -1,0 +1,5 @@
+  Number of Lines :238 
+  Number of words :  830
+  Number of bytes : 45859
+
+  FileName: music.txt
