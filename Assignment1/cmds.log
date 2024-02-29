@@ -1,0 +1,90 @@
+
+  360  git pull origin main
+  361  ls
+  362  cd Assignment1 (Switching to directory to begin assignment)
+  363  echo $SHELL (Question 2)
+  364  echo $SHELL > Assignment1.txt (Copying output into Assignment file)
+  365  echo $HOME (Question 3)
+  366  echo $HOME >> Assignment1.txt (Copying output into Assignment file)
+  367  ls
+  368  vi Assignment1.txt (checking to make sure the 2 above outputs were copied)
+  369  grep -i Akash /etc/passwd (had to search for my name in passwd file to find my UID and what groups I belong to)
+  370  grep -i Akash /etc/passwd >> Assignment1.txt (copying into assignment file)
+  371  mkdir "myDir" (Question 4)
+  372  ls
+  373  cd myDir
+  374  chmod 555
+  375  chmod --help
+  376  chmod 555 myDir (Question 4 continued)
+  377  cd Assignment1
+  378  cd
+  379  cd Assignmetn1
+  380  cd Assignment1
+  381  chmod 555 myDir
+  382  cd myDir (tried to CD into it and was successful)
+  383  ls (did ls in myDir which was successful)
+  384  ls - l 
+  385  ls -l (did ls -l in my Dir successfully)
+  386  touch file.txt (tried creating new file in myDir and was unsuccesful)
+  387  cd
+  388  cd Assignment1
+  389  mkdir "myDir2" (Question 5)
+  390  mkdir "myDir3" (Question 5)
+  391  cd myDir2
+  392  touch myFile.txt (created new file in myDir2)
+  393  ls
+  394  cd
+  395  cd Assingment1
+  396  cd Assignment1
+  397  ls
+  398  cd myDir
+  399  touch file.txt >> Assignment1.txt
+  400  cd
+  401  cd Assignment1
+  402  vi Assignment1.txt
+  403  cd myDir2
+  404  ls
+  405  mv myFile.txt myDir3
+  406  cd
+  407  ls
+  408  cd Assignment1
+  409  cd myDir3
+  410  ls
+  411  cd
+  412  cd Assignment1
+  413  cd myDir2
+  414  ls
+  415  cd
+  416  cd Assignment1
+  417  ls
+  418  cd myDir2
+  419  rm-r myDir3 (had some problems and accidentely created a new file myDir3)
+  420  rmdir myDir3
+  421  ls
+  422  cd myDir3
+  423  vi myDir3
+  424  rm -R myDir3
+  425  ls
+  426  touch newFile.txt (recreated the file in myDir2 as I had some problems)
+  427  ls
+  428  vi newFile.txt
+  429  mv newFile.txt /myDir3
+  430  mv newFile.txt myDir3/newFile.txt
+  431  mv newFile.txt ../myDir3 (succesfully moved myFile from myDir2 to myDir3)
+  432  cd
+  433  cd Assignment1
+  434  cd myDir3
+  435  ls
+  436  vi newFile.txt
+  437  cd ..
+  438  man free
+  439  free -m (to check the amount of memory in mebibytes)
+  440  free -m >> Assignment1.txt (copying the result into Assignment1.txt)
+  441  cat /etc/os-release (viewing the os-release file)
+  442  grep -i Version /etc/os-release (checking version using grep)
+  443  grep -i Version /etc/os-release >> Assignment1 (copying os version into Assignment1 file)
+  444  vi Assignment1.txt
+  445  grep -i Version /etc/os-release >> Assignment1.txt
+  446  ls -l /etc/os-release (checking permission for all users)
+  447  ls -l /etc/os-release >> Assignment1.txt
+  448  history > cmds.log (copying my history into cmds.log)
