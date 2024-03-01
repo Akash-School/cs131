@@ -1,12 +1,23 @@
+---------Question 2 result------------------------
 /bin/bash (This is the result I got in terminal when I did $SHELL)
+---------------------------------------------------
+
+----------------------Question 2 result---------------
 /mnt/scratch/FA23_CS131_Ashish/akashsp24 (This is the result I got when I did $HOME to find my home directory path)
+---------------------------------------------------------
+
+------------------Question 3 result------------------------
 akashsp24:x:1190:1190::/mnt/scratch/FA23_CS131_Ashish/akashsp24:/bin/bash (this is the output I got for grep my name in the /etc/passwd file. My UID is 1190 and my group is 1190 as well. I found this out using grep -i Akash /etc/passwd)
+----------------------------------------------------------
+
+
+-----------------------------Question 6 result-------------------------------
               total        used        free      shared  buff/cache   available
 Mem:          71367       33027       19060        3524       19279       33357
 Swap:          4119           0        4119
 (the total amount of RAM in the IBM VM is 71367 mebibytes as the output from the command free -m shows us above)
 
-
+--------------------------Question 9 result--------------------------------------
 VERSION="8.6 (Ootpa)"
 VERSION_ID="8.6"
 REDHAT_BUGZILLA_PRODUCT_VERSION=8.6
@@ -14,5 +25,7 @@ REDHAT_SUPPORT_PRODUCT_VERSION="8.6"
 (The OS version that is being used is 8.6 and the file is contained under /etc/os-release which gave us this information. I specifically did grep -i Version /etc/os-release and appended to this file so I can see only the information I need)
 
 
+----------------------------------Question 10 result-----------------------------
 lrwxrwxrwx. 1 root root 22 Apr  6  2022 /etc/os-release -> ..//usr/lib/os-release
 (All users are given read,write, and execute permissions for this file as we can see that it has rwx for owner, rwx for group, and rwx for others which means everyone has read write execute permissions.)
+--------------------------------------------------------------------------------------

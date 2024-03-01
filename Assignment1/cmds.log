@@ -1,15 +1,25 @@
 
   360  git pull origin main
   361  ls
+-----------Question 1---------------------
   362  cd Assignment1 (Switching to directory to begin assignment)
+----------------------------------------
+----------------Question 2----------------------
   363  echo $SHELL (Question 2)
+-------------------------------------------------
   364  echo $SHELL > Assignment1.txt (Copying output into Assignment file)
-  365  echo $HOME (Question 3)
+--------------Question 2-------------------------
+  365  echo $HOME (Question 2)
+-----------------------------------------------------
   366  echo $HOME >> Assignment1.txt (Copying output into Assignment file)
   367  ls
+
+-----------------Question 3----------------------------------
   368  vi Assignment1.txt (checking to make sure the 2 above outputs were copied)
   369  grep -i Akash /etc/passwd (had to search for my name in passwd file to find my UID and what groups I belong to)
   370  grep -i Akash /etc/passwd >> Assignment1.txt (copying into assignment file)
+--------------------------------------------------------------
+-----------------Question 4-----------------------------------
   371  mkdir "myDir" (Question 4)
   372  ls
   373  cd myDir
@@ -27,7 +37,10 @@
   385  ls -l (did ls -l in my Dir successfully)
   386  touch file.txt (tried creating new file in myDir and was unsuccesful)
   387  cd
+-------------------------------------------------------------
   388  cd Assignment1
+
+-----------------Question 5-------------------------------
   389  mkdir "myDir2" (Question 5)
   390  mkdir "myDir3" (Question 5)
   391  cd myDir2
@@ -72,19 +85,28 @@
   430  mv newFile.txt myDir3/newFile.txt
   431  mv newFile.txt ../myDir3 (succesfully moved myFile from myDir2 to myDir3)
   432  cd
+--------------------------------------------------------------------
   433  cd Assignment1
   434  cd myDir3
   435  ls
   436  vi newFile.txt
   437  cd ..
+--------------------------------Question 6-------------------------------
   438  man free
   439  free -m (to check the amount of memory in mebibytes)
   440  free -m >> Assignment1.txt (copying the result into Assignment1.txt)
+--------------------------------------------------------------------------
+
+-------------------------Question 9-----------------------------------------
   441  cat /etc/os-release (viewing the os-release file)
   442  grep -i Version /etc/os-release (checking version using grep)
   443  grep -i Version /etc/os-release >> Assignment1 (copying os version into Assignment1 file)
   444  vi Assignment1.txt
+-----------------------------------------------------------------------------
+
+---------------------Question 10--------------------------------------------------
   445  grep -i Version /etc/os-release >> Assignment1.txt
   446  ls -l /etc/os-release (checking permission for all users)
   447  ls -l /etc/os-release >> Assignment1.txt
   448  history > cmds.log (copying my history into cmds.log)
+-------------------------------------------------------------------------------------
