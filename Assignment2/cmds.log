@@ -1,0 +1,42 @@
+
+
+
+
+------------------------Question 1---------------------------------
+  500  cd Assignment2
+  501  find /etc -type f > one.txt 2> two.txt
+  502  cat one.txt > Assignment2.txt
+  503  cat two.txt
+  504  cat two.txt >> Assignment2.txt
+  505  wget https://raw.githubusercontent.com/khanchandaniashish/CS131/main/Global%20YouTube%20Statistics.csv
+  506  ls
+  507  vi Global\ YouTube\ Statistics.csv 
+
+---------------------------------Question 2------------------------------------------------------------
+  508  cut -d ',' -f 22,23 Global\ YouTube\ Statistics.csv 
+  509  cut -d ',' -f 21,22 Global\ YouTube\ Statistics.csv 
+  510  cut -d ',' -f 21,22 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -nr | head -3
+  511  cut -d ',' -f 21,22 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -nr | head -3 > Assignment2.txt
+  512  cat one.txt > Assignment2.txt
+  513  cat two.txt >> Assignment2.txt
+  514  cut -d ',' -f 21,22 Global\ YouTube\ Statistics.csv | tail -n +2 | sort | uniq -c | sort -nr | head -3 >> Assignment2.txt
+
+---------------------------------Question 3----------------------------------------
+  515  vi Assignment2.txt
+  516  ps -u akashsp24
+
+-----------------------------------Question 4-------------------- 
+ 517  vi file.txt
+
+
+--------------------------------Question 5----------------------
+  518  ps -eo pid,comm | grep 'init\|systemd'
+ 
+  520  ps -eo pid,comm | grep 'init\|systemd' >> Assignment2.txt
+
+
+--------------------------------------Question 6-------------------------
+  521  ps aux
+  522  vi Assignment2.txt
+  523  history
+  524  history > cmds.log
