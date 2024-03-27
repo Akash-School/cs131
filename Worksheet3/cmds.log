@@ -1,0 +1,47 @@
+
+  640  sort -t ',' -k 15nr 'Global YouTube Statistics.csv' > earnings.csv
+  641  grep 'United States' earnings.csv | head -n 1 | awk -F ',' '{print $16}'
+  642  grep 'United States' earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+  643  grep 'United Kingdom' earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+  644  grep 'India' earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+  645  grep 'United States' earnings.csv | head -n 1 | awk -F ',' '{print $16}' > ws3.txt
+  646  grep 'United Kingdom' earnings.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  647  grep 'India' earnings.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  648  vi ws3.txt
+  649  vi Global\ YouTube\ Statistics.csv 
+  650  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > subs.csv
+  651  grep 'United States' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  652  grep 'United Kingdom' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  653  grep 'India' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  654  vi ws3.txt
+  655  grep 'Sports' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  656  grep 'Education' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  657  grep 'Entertainment' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  658  vi ws3.txt
+  659  sort -t ',' -k 2nr 'Global YouTube Statistics.csv' > subs.csv
+  660  grep 'Sports' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  661  grep 'Entertainment' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  662  grep 'Education' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  663  vi ws3.txt
+  664  vi Global\ YouTube\ Statistics.csv 
+  665  sort -t ',' -k 3nr 'Global YouTube Statistics.csv' > subs.csv
+  666  vi subs.csv
+  667  grep'Sports'subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  668  grep 'Sports' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  669  grep 'Enterntainment' subs.csv | head -n 1 | awk -F ',' '{print $16}' >> ws3.txt
+  670  grep'Sports'subs.csv | head -n 1 | awk -F ',' '{print $3,$2}' >> ws3.txt
+  671  grep 'Sports 'subs.csv | head -n 1 | awk -F ',' '{print $3,$2}' >> ws3.txt
+  672  cd Worksheet3
+  673  ls
+  674  grep 'Sports' subs.csv | head -n 1 | awk -F ',' '{print $3,$2}' >> ws3.txt
+  675  grep 'Education' subs.csv | head -n 1 | awk -F ',' '{print $3,$2}' >> ws3.txt
+  676  grep 'Entertainment' subs.csv | head -n 1 | awk -F ',' '{print $3,$2}' >> ws3.txt
+  677  vi ws3.txt
+  678  grep 'United States' earnings.csv | head -n 1 | awk -F ',' '{print $2,$16}' >> ws3.txt
+  679  grep 'United Kingdom' earnings.csv | head -n 1 | awk -F ',' '{print $2,$16}' >> ws3.txt
+  680  grep 'India' earnings.csv | head -n 1 | awk -F ',' '{print $2,$16}' >> ws3.txt
+  681  vi ws3.txt
+  682  history cmds.log
+  683  history > cmds.log
+  684  vi cmds.log
+  685  history > cmds.log
